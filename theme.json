@@ -1,0 +1,77 @@
+{
+  "version": 2,
+  "styles": {
+    "blocks": {
+      "core/button": {
+        "color": {
+          "text": "#FFFFFF",
+          "background": "var(--wp--preset--color--light-blue)"
+        },
+        "typography": {
+          "fontWeight": "600"
+        }
+      }
+    }
+  },
+  "settings": {
+    "typography": {
+      "fontFamilies": [],
+      "fontStyle": false,
+      "fontWeight": false,
+      "letterSpacing": false,
+      "textDecoration": false,
+      "lineHeight": true,
+      "textTransform": false,
+      "dropCap": false,
+      "customFontSize": false
+    },
+    "blocks": {
+      "core/button": {
+        "border": {
+          "color": false,
+          "radius": false,
+          "style": false,
+          "width": false
+        }
+      }
+    },
+    "color": {
+      "background": true,
+      "text": false,
+      "link": false,
+      "custom": false,
+      "defaultPalette": false,
+      "duotone": [],
+      "customDuotone": false,
+      "gradients": [],
+      "customGradient": false,
+      "palette": [
+        {
+          "slug": "black",
+          "color": "#000",
+          "name": "Black"
+        },
+        {
+          "slug": "white",
+          "color": "#FFF",
+          "name": "White"
+        },
+        {
+          "slug": "light-blue",
+          "color": "#517498",
+          "name": "Light Blue"
+        },
+        {
+          "slug": "dark-grey",
+          "color": "#293032",
+          "name": "Dark Blue"
+        },
+        {
+          "slug": "orange",
+          "color": "#FC4924",
+          "name": "Orange"
+        }
+      ]
+    }
+  }
+}

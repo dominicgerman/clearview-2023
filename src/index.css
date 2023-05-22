@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  h1 {
+    @apply text-4xl mt-4 mb-6;
+  }
+  h2 {
+    @apply text-3xl mt-6 mb-2;
+  }
+  h3 {
+    @apply text-2xl mt-6 mb-2;
+  }
+  h4 {
+    @apply text-xl mt-6 mb-2;
+  }
+}
+
+@layer components {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* For IE, Edge and Firefox */
+  .scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  .link-underline {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+  }
+
+  .contact-form__button button {
+    border-radius: 9999px !important;
+    background-color: var(--wp--preset--color--light-blue) !important;
+    font-family: 'Rubik' !important;
+    font-weight: 400 !important;
+    width: 200px !important;
+  }
+}
+/* DON'T USE IMPORT STATEMENT IF USING WP */
+/* @import url('https://fonts.googleapis.com/css2?family=Forum&family=Rubik:wght@400;500&display=swap'); */
