@@ -4,6 +4,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./images/logo.png">
     <?php wp_head(); ?>
 </head>
 
@@ -19,7 +20,7 @@
         <a href="<?php echo get_home_url(); ?>">
             <div class="flex items-center gap-2 lg:gap-4 pl-4 lg:pl-0">
                 <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" alt="Clearview Chapel logo" class="h-10 w-10 lg:h-14 lg:w-14">
-                <img src="<?php echo get_theme_file_uri('/images/title.png') ?>" alt="Clearview Chapel logo" class="h-10 w-44 lg:h-14 lg:w-60">
+                <img src="<?php echo get_theme_file_uri('/images/title.png') ?>" alt="Clearview Chapel logo" class="h-8 w-36 lg:h-14 lg:w-60">
             </div>
         </a>
         <input type="checkbox" class="opacity-0 peer absolute right-4 h-10 w-10 lg:hidden z-50" />
@@ -35,8 +36,10 @@
         <nav class="hidden peer-checked:flex flex-col items-center justify-center gap-16 fixed top-0 left-1/2 -translate-x-1/2 text-2xl bg-white h-screen w-screen z-30 lg:flex lg:flex-row lg:static lg:text-lg lg:gap-12 lg:bg-opacity-0 lg:h-auto lg:w-auto lg:translate-x-0">
             <a href="/first-time-visitors" class="<?php if (is_page('first-time-visitors')) echo $navActive ?>">I'm new</a>
             <a href="/team" class="<?php if (is_page('team')) echo $navActive ?>">Team</a>
-            <button class="bg-lightBlue text-white px-8 py-2 rounded-full">
-                <a href="https://google.com">Give</a>
-            </button>
+            <a href="#" target="_blank">
+                <button class="bg-lightBlue text-white px-8 py-2 rounded-full">
+                    Give
+                </button>
+            </a>
         </nav>
     </div>

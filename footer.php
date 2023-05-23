@@ -1,7 +1,7 @@
 <div class="w-screen bg-darkGrey">
-    <div class="min-h-[366px] w-full bg-darkGrey lg:max-w-[1280px] lg:py-14 lg:px-24 mx-auto">
-        <div class="flex flex-col gap-6 lg:grid lg:grid-cols-footer lg:mb-10 text-white">
-            <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" alt="Clearview chapel logo" height="78px" width="78px">
+    <div class="min-h-[366px] w-full bg-darkGrey lg:max-w-[1280px] px-10 py-16 lg:p-0 lg:py-14 lg:px-24 mx-auto">
+        <div class="flex flex-col gap-12 lg:grid lg:grid-cols-footer mb-10 text-white">
+            <img src="<?php echo get_theme_file_uri('/images/logo.png') ?>" alt="Clearview chapel logo" class="h-12 w-12 lg:h-20 lg:w-20">
             <div class="flex flex-col font-forum text-lg gap-5">
                 <p>
                     <a href="#">Give</a>

@@ -17,20 +17,11 @@
 }
 
 @layer components {
-  .scrollbar-hide::-webkit-scrollbar {
-    display: none;
-  }
-
-  /* For IE, Edge and Firefox */
-  .scrollbar-hide {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-  }
-
   .link-underline {
     text-decoration: underline;
     text-decoration-thickness: 2px;
     text-underline-offset: 8px;
+    text-decoration-color: var(--wp--preset--color--light-blue);
   }
 
   .contact-form__button button {
