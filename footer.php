@@ -25,7 +25,7 @@
                 </a>
             </div>
         </div>
-        <p class="text-white text-center text-xs font-normal">2101 S David Rd, LaGrange, GA, 30241 | &copy; 2023 Clearview Chapel</p>
+        <p class="text-white text-center text-xs font-normal">2101 S Davis Rd, LaGrange, GA, 30241 | &copy; 2023 Clearview Chapel</p>
     </div>
 </div>
 
