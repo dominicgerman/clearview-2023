@@ -72,6 +72,9 @@
           "name": "Orange"
         }
       ]
+    },
+    "layout": {
+      "contentSize": "840px"
     }
   }
 }

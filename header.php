@@ -36,7 +36,7 @@
         <nav class="hidden peer-checked:flex flex-col items-center justify-center gap-16 fixed top-0 left-1/2 -translate-x-1/2 text-2xl bg-white h-screen w-screen z-30 lg:flex lg:flex-row lg:static lg:text-lg lg:gap-12 lg:bg-opacity-0 lg:h-auto lg:w-auto lg:translate-x-0">
             <a href="/first-time-visitors" class="<?php if (is_page('first-time-visitors')) echo $navActive ?>">I'm new</a>
             <a href="/team" class="<?php if (is_page('team')) echo $navActive ?>">Team</a>
-            <a href="#" target="_blank">
+            <a href="/give">
                 <button class="bg-lightBlue text-white px-8 py-2 rounded-full">
                     Give
                 </button>
