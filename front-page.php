@@ -4,7 +4,7 @@
     <?php while (have_posts()) {
         the_post();
     ?>
-        <div class="h-screen lg:h-[600px] relative text-white" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 20%, rgba(0, 0, 0, 0.4) 92.6%), url(<?php the_post_thumbnail_url() ?>);">
+        <div class="h-screen lg:h-[600px] relative text-white" style="background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 20%, rgba(0, 0, 0, 0.4) 92.6%), url(<?php the_post_thumbnail_url() ?>);">
             <div class="text-center text-sm font-normal py-3 lg:text-xl lg:py-5" style="background: rgba(86, 126, 168, 0.7);">
                 <span> Service is every Sunday at 11:00AM.</span>
                 <a class="underline underline-offset-2" href="https://goo.gl/maps/oUVoxyy44KEhb2uW8" target="_blank">Get directions</a>
