@@ -34,9 +34,9 @@
           "width": false
         }
       },
-      "core/column": {
+      "core/heading": {
         "spacing": {
-          "padding": true
+          "margin": true
         }
       }
     },
