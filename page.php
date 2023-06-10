@@ -13,7 +13,7 @@ while (have_posts()) {
                 <?php the_title() ?>
             </h1>
         </div>
-        <div id="page-content" class="my-9 [&_h2]:mt-12 lg:[&_h2]:mt-24 [&_h2]:text-3xl lg:[&_h2]:text-4xl [&_p]:text-base lg:[&_p]:text-lg [&_p]:my-4 lg:[&_p]:my-9 [&_.wp-block-column_figure]:w-1/3 md:[&_.wp-block-column_figure]:w-full [&_.wp-block-heading]:my-0  [&_.wp-block-columns]:my-12 [&_a]:link-underline">
+        <div id="page-content" class="my-9 [&_h2]:mt-12 lg:[&_h2]:mt-24 [&_h2]:text-3xl lg:[&_h2]:text-4xl [&_p]:text-base lg:[&_p]:text-lg [&_p]:my-4 lg:[&_p]:my-9 [&_.wp-block-column_figure]:w-1/3 md:[&_.wp-block-column_figure]:w-full [&_.wp-block-heading]:my-0  [&_.wp-block-columns]:my-12 [&_a]:link-underline [&_.wp-block-media-text__content]:pl-0">
             <?php the_content() ?>
         </div>
     </div>
