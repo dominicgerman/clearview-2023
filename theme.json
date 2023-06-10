@@ -33,6 +33,11 @@
           "style": false,
           "width": false
         }
+      },
+      "core/column": {
+        "spacing": {
+          "padding": true
+        }
       }
     },
     "color": {
